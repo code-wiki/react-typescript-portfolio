@@ -1,5 +1,6 @@
 import './styles/index.scss';
 import App from './routers/root';
+import Portfolio from './containers/index';
 import { hydrate, render } from 'react-dom';
 
 const rootElement: HTMLElement | null = document.getElementById('root');
@@ -8,10 +9,16 @@ if (rootElement instanceof HTMLElement) {
     shouldHydrate = rootElement.hasChildNodes();
 }
 
+const PortfolioApp = () => (
+    <Portfolio>
+        <App />
+    </Portfolio>
+);
+
 if (shouldHydrate) {
-    hydrate(<App />, rootElement);
+    hydrate(<PortfolioApp />, rootElement);
 } else {
-    render(<App />, rootElement);
+    render(<PortfolioApp />, rootElement);
 }
 
 // If you want to start measuring performance in your app, pass a function
