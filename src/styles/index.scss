@@ -3,6 +3,12 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+:root {
+    --navbar-bg: #f6f8fa;
+    --nav-link-color: #1f2328;
+    --text-body-size-medium: 0.875rem;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
@@ -21,4 +27,20 @@ h3 {
 }
 a {
     color: rgb(0, 128, 255);
+}
+
+.navbar {
+    background-color: var(--navbar-bg);
+    .nav-link {
+        font-size: var(--text-body-size-medium);
+    }
+    .nav-link .active {
+        color: var(--nav-link-color);
+    }
+    .github-icon {
+        color: black;
+    }
+    .name-container {
+        line-height: 4;
+    }
 }

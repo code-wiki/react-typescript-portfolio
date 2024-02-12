@@ -4,14 +4,12 @@ const Home = () => {
     const TWITTER_LINK = 'https://twitter.com/_aditya_gautam';
     const LINKEDIN_LINK = 'https://www.linkedin.com/in/me-adi';
     return (
-        <div className="tw-container tw-mx-auto tw-h-full tw-mt-10 tw-pt-10">
-            <div className="d-flex justify-content-center ">
-                <h3 className="w-50">{'<Hello World />'}</h3>
-                <br />
-                <br />
+        <div className="tw-container tw-mx-auto tw-h-full tw-mt-4 tw-pt-4">
+            <div className="d-flex justify-content-start ">
+                <h4 className="w-50 pb-4 ">{'<Hello World />'}</h4>
             </div>
-            <div className="d-flex justify-content-center">
-                <p className="w-50 tw-text-justify">
+            <div className="d-flex justify-content-start">
+                <p className="w-50 tw-text-justify tw-text-sm">
                     I am Aditya Gautam, an entrepreneur, consultant, and an
                     advisor with a rich background in technology and business
                     leadership. Currently, I serve as the Chief Technology
