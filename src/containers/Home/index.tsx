@@ -8,8 +8,8 @@ const Home = () => {
             <div className="d-flex justify-content-start ">
                 <h4 className="w-50 pb-4 ">{'<Hello World />'}</h4>
             </div>
-            <div className="d-flex justify-content-start">
-                <p className="w-50 tw-text-justify tw-text-sm">
+            <div className="row">
+                <p className="col-md-6 tw-text-justify tw-text-sm ">
                     I am Aditya Gautam, an entrepreneur, consultant, and an
                     advisor with a rich background in technology and business
                     leadership. Currently, I serve as the Chief Technology

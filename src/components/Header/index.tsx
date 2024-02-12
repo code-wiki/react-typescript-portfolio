@@ -19,11 +19,11 @@ export default function index() {
                     </h4>
                 </div>
                 <div className="">
-                    <div className="collapse navbar-collapse d-flex justify-content-start gap-3">
+                    <div className="collapse navbar-collapse d-flex justify-content-start gap-2">
                         <ul className="navbar-nav mx-2">
                             <li className="nav-item">
                                 <Link
-                                    className="nav-link active d-flex justify-content-center align-items-center"
+                                    className="nav-link active d-flex justify-content-center align-items-center tw-text-sm"
                                     to="/"
                                 >
                                     <PiGitlabLogoSimpleBold />
@@ -35,7 +35,7 @@ export default function index() {
                         <ul className="navbar-nav mx-2">
                             <li className="nav-item">
                                 <Link
-                                    className="nav-link d-flex justify-content-center align-items-center"
+                                    className="nav-link d-flex justify-content-center align-items-center tw-text-sm"
                                     to="/blog"
                                 >
                                     <TbBrandBlogger className=" tw-mb-[-2%]" />
@@ -47,7 +47,7 @@ export default function index() {
                         <ul className="navbar-nav mx-2">
                             <li className="nav-item">
                                 <Link
-                                    className="nav-link d-flex justify-content-center align-items-center"
+                                    className="nav-link d-flex justify-content-center align-items-center tw-text-sm"
                                     to="/bookhself"
                                 >
                                     <PiNotebookBold />

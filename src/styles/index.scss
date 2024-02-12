@@ -31,9 +31,6 @@ a {
 
 .navbar {
     background-color: var(--navbar-bg);
-    .nav-link {
-        font-size: var(--text-body-size-medium);
-    }
     .nav-link .active {
         color: var(--nav-link-color);
     }
