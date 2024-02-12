@@ -9,7 +9,7 @@ const Home = () => {
                 <h4 className="w-50 pb-4 ">{'<Hello World />'}</h4>
             </div>
             <div className="row">
-                <p className="col-md-6 tw-text-justify tw-text-sm ">
+                <p className="col-md-6 tw-text-justify ">
                     I am Aditya Gautam, an entrepreneur, consultant, and an
                     advisor with a rich background in technology and business
                     leadership. Currently, I serve as the Chief Technology

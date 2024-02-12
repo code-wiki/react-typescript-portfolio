@@ -28,7 +28,9 @@ export default function index() {
                                 >
                                     <PiGitlabLogoSimpleBold />
                                     &nbsp;
-                                    <h4 className="tw-mb-[-4%]">About me</h4>
+                                    <h4 className="tw-mb-[-2%] tw-text-sm">
+                                        About me
+                                    </h4>
                                 </Link>
                             </li>
                         </ul>
@@ -40,7 +42,9 @@ export default function index() {
                                 >
                                     <TbBrandBlogger className=" tw-mb-[-2%]" />
                                     &nbsp;
-                                    <h4 className="tw-mb-[-6%]">Blog</h4>
+                                    <h4 className="tw-mb-[-4%] tw-sm:mb-[-2%] tw-text-sm">
+                                        Blog
+                                    </h4>
                                 </Link>
                             </li>
                         </ul>
@@ -48,11 +52,13 @@ export default function index() {
                             <li className="nav-item">
                                 <Link
                                     className="nav-link d-flex justify-content-center align-items-center tw-text-sm"
-                                    to="/bookhself"
+                                    to="/bookshelf"
                                 >
                                     <PiNotebookBold />
                                     &nbsp;
-                                    <h4 className="tw-mb-[-2%]">Bookshelf</h4>
+                                    <h4 className="tw-mb-[-2%] tw-sm:mb-0 tw-text-sm">
+                                        Bookshelf
+                                    </h4>
                                 </Link>
                             </li>
                         </ul>
