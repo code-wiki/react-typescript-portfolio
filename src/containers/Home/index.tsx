@@ -4,7 +4,7 @@ const Home = () => {
     const TWITTER_LINK = 'https://twitter.com/_aditya_gautam';
     const LINKEDIN_LINK = 'https://www.linkedin.com/in/me-adi';
     return (
-        <div className="tw-container tw-mx-auto tw-h-full tw-mt-4 tw-pt-4">
+        <div className="container tw-h-full tw-mt-4 tw-pt-4">
             <div className="d-flex justify-content-start ">
                 <h4 className="w-50 pb-4 ">{'<Hello World />'}</h4>
             </div>
